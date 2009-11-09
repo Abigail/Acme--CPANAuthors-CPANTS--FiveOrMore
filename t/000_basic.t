@@ -10,7 +10,8 @@ use Test::More tests => 6;
 use Acme::CPANAuthors;
 
 BEGIN {
-    use_ok ('Acme::CPANAuthors::CPANTS::FiveOrMore');
+    use_ok ('Acme::CPANAuthors::CPANTS::FiveOrMore') or
+       BAIL_OUT ("Loading of 'Acme::CPANAuthors::CPANTS::FiveOrMores' failed");
 }
 
 ok defined $Acme::CPANAuthors::CPANTS::FiveOrMore::VERSION, "VERSION is set";
