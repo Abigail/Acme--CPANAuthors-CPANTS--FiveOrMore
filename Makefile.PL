@@ -12,8 +12,7 @@ my  $PACKAGE      =  'Acme::CPANAuthors::CPANTS::FiveOrMore';
 
 my  $LIB_FILE     =  "lib/$PACKAGE.pm";
     $LIB_FILE     =~  s!::!/!g;
-my  $LOCAL_ADDR   =   lc $PACKAGE;
-    $LOCAL_ADDR   =~  s!::!-!g;
+my  $LOCAL_ADDR   =  'cpan';
 my  $DOMAIN       =  'abigail.be';
 my  $REPO         =   $PACKAGE;
     $REPO         =~  s!::!--!g;
@@ -27,17 +26,19 @@ my %args = (
     VERSION_FROM         =>  $LIB_FILE,
     ABSTRACT_FROM        =>  $LIB_FILE,
     PREREQ_PM            => {
-        'strict'   =>  0,
-        'warnings' =>  0,
+        'strict'                      =>  0,
+        'warnings'                    =>  0,
+        'Acme::CPANAuthors::Register' =>  0,
     },
     MIN_PERL_VERSION     =>   5.006,
     AUTHOR               =>  "$ME <$LOCAL_ADDR\@$DOMAIN>",
     LICENSE              =>  'mit',
     META_MERGE           => {
         test_requires    => {
-            'strict'     => 0,
-            'warnings'   => 0,
-            'Test::More' => 0,
+            'strict'            => 0,
+            'warnings'          => 0,
+            'Test::More'        => 0,
+            'Acme::CPANAuthors' => 0,
         },
         resources        => {
             repository   => $REPOSITORY,
