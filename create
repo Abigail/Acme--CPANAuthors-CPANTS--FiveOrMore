@@ -41,7 +41,7 @@ foreach my $id (sort keys %AUTHORS) {
 
 
 open my $fh, ">", $dest;
-print $fh do {local $" = ", "; <<"--"};
+print $fh <<"--";
 package Acme::CPANAuthors::CPANTS::FiveOrMore;
 
 #
