@@ -8,6 +8,7 @@ no  warnings 'syntax';
 
 use autodie;
 
+use POSIX;
 use LWP::Simple;
 
 my $dest = "lib/Acme/CPANAuthors/CPANTS/FiveOrMore.pm";
@@ -39,6 +40,7 @@ foreach my $id (sort keys %AUTHORS) {
     $LIST .= "    q <$id> => q <$author>,\n";
 }
 
+my $VERSION = POSIX::strftime '%Y%m%d01' => localtime;
 
 open my $fh, ">", $dest;
 print $fh <<"--";
@@ -53,7 +55,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our \$VERSION = '2009110901';
+our \$VERSION = '$VERSION';
 
 use Acme::CPANAuthors::Register ($LIST);
 
