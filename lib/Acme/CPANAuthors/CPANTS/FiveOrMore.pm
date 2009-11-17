@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2009110901';
+our $VERSION = '2009111701';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -43,6 +43,7 @@ use Acme::CPANAuthors::Register (
     q <ALLENDAY> => q <Allen Day>,
     q <AMALTSEV> => q <Andrew Maltsev>,
     q <AMBS> => q <Alberto Manuel Brandao Simoes>,
+    q <AMONTERO> => q <Alberto Montero Asenjo>,
     q <AMS> => q <Abhijit Menon-Sen>,
     q <ANDK> => q <Andreas J. Koenig>,
     q <ANDREMAR> => q <Andreas Marienborg>,
@@ -383,6 +384,7 @@ use Acme::CPANAuthors::Register (
     q <JEFFA> => q <Jeffrey Hayes Anderson>,
     q <JENDA> => q <Jan Krynicky>,
     q <JESSE> => q <Jesse Vincent>,
+    q <JESUS> => q <Theo Schlossnagle>,
     q <JETEVE> => q <Jerome Eteve>,
     q <JETTERO> => q <Paul Miller>,
     q <JFENAL> => q <Jerome Fenal>,
@@ -562,6 +564,7 @@ use Acme::CPANAuthors::Register (
     q <NAOYA> => q <Naoya Ito>,
     q <NATG> => q <Nathan Goodman>,
     q <NATTIS> => q <Udlei D. R. Nattis>,
+    q <NCLEATON> => q <Nick Cleaton>,
     q <NEILB> => q <Neil Bowers>,
     q <NEILW> => q <Neil Watkiss>,
     q <NEKOKAK> => q <Atsushi Kobayashi>,
@@ -784,6 +787,7 @@ use Acme::CPANAuthors::Register (
     q <TMTM> => q <Tony Bowden>,
     q <TMURRAY> => q <Timm Murray>,
     q <TNGUYEN> => q <Tan D Nguyen>,
+    q <TOBYINK> => q <Toby Inkster>,
     q <TOKUHIROM> => q <Tokuhiro Matsuno>,
     q <TOMI> => q <Tom Insam>,
     q <TOMITA> => q <Naoki Tomita>,
