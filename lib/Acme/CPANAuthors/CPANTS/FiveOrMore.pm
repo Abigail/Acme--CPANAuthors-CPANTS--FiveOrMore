@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2009111701';
+our $VERSION = '2009112401';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -69,6 +69,7 @@ use Acme::CPANAuthors::Register (
     q <AVAR> => q <AEvar Arnfjord Bjarmason>,
     q <AVIF> => q <Avi Finkel>,
     q <AWIN> => q <Ashley Winters>,
+    q <AWNCORP> => q <Al Newkirk>,
     q <AWRIGLEY> => q <Ave Wrigley>,
     q <AWWAIID> => q <Brock Wilcox>,
     q <AZAWAWI> => q <Ahmad M. Zawawi>,
