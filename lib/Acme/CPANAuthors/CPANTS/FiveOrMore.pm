@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2009112401';
+our $VERSION = '2009120701';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -291,6 +291,7 @@ use Acme::CPANAuthors::Register (
     q <GEOFF> => q <Geoffrey Young>,
     q <GEOTIGER> => q <Geo Tiger>,
     q <GFUJI> => q <Goro Fuji>,
+    q <GHENRY> => q <Gavin Henry>,
     q <GIFF> => q <Scott Gifford>,
     q <GLENNWOOD> => q <Glenn Wood>,
     q <GMCCAR> => q <Greg McCarroll>,
@@ -694,6 +695,7 @@ use Acme::CPANAuthors::Register (
     q <SAPER> => q <Sebastien Aperghis-Tramoni>,
     q <SARGIE> => q <Peter Sergeant>,
     q <SARTAK> => q <Shawn M Moore>,
+    q <SATOH> => q <cho45 (SATOH)>,
     q <SAXJAZMAN> => q <Wes Young>,
     q <SBECK> => q <Sullivan Beck>,
     q <SBURKE> => q <Sean M. Burke>,
@@ -798,6 +800,7 @@ use Acme::CPANAuthors::Register (
     q <TPABA> => q <Daniel Podolsky>,
     q <TPEDERSE> => q <Ted Pedersen>,
     q <TPG> => q <Toni Prug>,
+    q <TRIDDLE> => q <Tyler Riddle>,
     q <TSCH> => q <Torsten Schoenfeld>,
     q <TSIBLEY> => q <Thomas Sibley>,
     q <TSKIRVIN> => q <Tim Skirvin>,
