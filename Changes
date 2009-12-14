@@ -1,3 +1,6 @@
+Version 2009121401
++ Require Test::More 0.88.
+
 Version 2009120701
 + New author(s)
 + Require version 1.01 of Test::Kwalitee for optional Kwalitee tests.
