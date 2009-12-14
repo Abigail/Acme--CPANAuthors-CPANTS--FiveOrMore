@@ -37,7 +37,7 @@ my %args = (
         test_requires    => {
             'strict'            => 0,
             'warnings'          => 0,
-            'Test::More'        => 0,
+            'Test::More'        => 0.88,
             'Acme::CPANAuthors' => 0,
         },
         resources        => {

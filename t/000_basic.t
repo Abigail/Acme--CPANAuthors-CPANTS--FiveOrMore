@@ -6,7 +6,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-use Test::More tests => 6;
+use Test::More 0.88;
 use Acme::CPANAuthors;
 
 BEGIN {
@@ -25,3 +25,5 @@ ok $authors -> count, "There are authors";
 my @ids = $authors -> id;
 ok scalar @ids, "There are ids";
 ok $authors -> name ("ABIGAIL"), "Find a name";
+
+done_testing;
