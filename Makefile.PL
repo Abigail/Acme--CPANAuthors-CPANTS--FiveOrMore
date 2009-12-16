@@ -47,6 +47,15 @@ my %args = (
     },
 );
 
+$args {META_MERGE} {build_requires} ||= {
+    'ExtUtils::MakeMaker' =>  0,
+    %{$args {META_MERGE} {test_requires}}
+};
+
+$args {META_MERGE} {configure_requires} ||=
+    $args {META_MERGE} {build_requires};
+    
+
 my %filter = (
     MIN_PERL_VERSION     => '6.48',
     LICENSE              => '6.48',
