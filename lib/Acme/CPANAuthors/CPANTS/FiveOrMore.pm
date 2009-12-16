@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2009121401';
+our $VERSION = '2009121601';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -224,6 +224,7 @@ use Acme::CPANAuthors::Register (
     q <DRUOSO> => q <Daniel Ruoso>,
     q <DSB> => q <David Boyce>,
     q <DSTAAL> => q <Daniel T. Staal>,
+    q <DSTH> => q <Daniel S. T. Hughes>,
     q <DSUGAL> => q <Dan Sugalski>,
     q <DUNCAND> => q <Darren Duncan>,
     q <DUPUISARN> => q <DUPUIS Arnaud>,
@@ -469,6 +470,7 @@ use Acme::CPANAuthors::Register (
     q <KRAEHE> => q <Michael Koehne>,
     q <KRYDE> => q <Kevin Ryde>,
     q <KTAT> => q <Kato Atsushi>,
+    q <KUBINA> => q <Jeff Kubina>,
     q <KULP> => q <Darren Kulp>,
     q <KURIHARA> => q <Yoshiki KURIHARA>,
     q <KVAIL> => q <Kevin Michael Vail>,
@@ -506,6 +508,7 @@ use Acme::CPANAuthors::Register (
     q <MATISSE> => q <Matisse Enzer>,
     q <MATSUMOTO> => q <syushi matsumoto>,
     q <MATTLAW> => q <Matthew Lawrence>,
+    q <MAUKE> => q <Lukas Mai>,
     q <MBARBON> => q <Mattia Barbon>,
     q <MBROOKS> => q <Marc S. Brooks>,
     q <MCANTONI> => q <Matteo Cantoni>,
@@ -800,7 +803,6 @@ use Acme::CPANAuthors::Register (
     q <TPABA> => q <Daniel Podolsky>,
     q <TPEDERSE> => q <Ted Pedersen>,
     q <TPG> => q <Toni Prug>,
-    q <TRIDDLE> => q <Tyler Riddle>,
     q <TSCH> => q <Torsten Schoenfeld>,
     q <TSIBLEY> => q <Thomas Sibley>,
     q <TSKIRVIN> => q <Tim Skirvin>,
