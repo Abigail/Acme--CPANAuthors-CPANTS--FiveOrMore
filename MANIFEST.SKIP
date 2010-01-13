@@ -3,3 +3,4 @@ create
 .gitignore
 MANIFEST.SKIP
 Releases
+t/990_kwalitee.t
