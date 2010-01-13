@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2010010401';
+our $VERSION = '2010011301';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -64,6 +64,7 @@ use Acme::CPANAuthors::Register (
     q <ASH> => q <Ash Berlin>,
     q <ASHLEY> => q <Ashley Pond V>,
     q <ASKSH> => q <Ask Solem>,
+    q <ATHOMASON> => q <Adam Thomason>,
     q <AUDREYT> => q <Audrey Tang>,
     q <AUTRIJUS> => q <Audrey Tang>,
     q <AVAR> => q <AEvar Arnfjord Bjarmason>,
@@ -443,6 +444,7 @@ use Acme::CPANAuthors::Register (
     q <JWALT> => q <Joerg Walter>,
     q <JWIED> => q <Jochen Wiedmann>,
     q <JZUCKER> => q <Jeff Zucker>,
+    q <KAARE> => q <Kaare Rasmussen>,
     q <KAHIRSCH> => q <Ken Hirsch>,
     q <KAKADU> => q <Konstantin Kapitanov>,
     q <KAKE> => q <Kake L Pugh>,
@@ -675,7 +677,7 @@ use Acme::CPANAuthors::Register (
     q <ROBM> => q <Rob Mueller>,
     q <ROBWALKER> => q <Robby Walker>,
     q <ROGERHALL> => q <Roger A Hall>,
-    q <ROMM> => q <Roman Parparov>,
+    q <ROMM> => q <Roman M. Parparov>,
     q <RONAN> => q <Ronan Oger>,
     q <ROODE> => q <Eric J. Roode>,
     q <ROOTKWOK> => q <Baggio, Kwok Lok Chung>,
@@ -822,6 +824,7 @@ use Acme::CPANAuthors::Register (
     q <UNRTST> => q <Joshua I. Miller>,
     q <URI> => q <Uri Guttman>,
     q <UVOELKER> => q <Uwe Voelker>,
+    q <VANAMBURG> => q <Gordon Van Amburg>,
     q <VBAR> => q <Vaclav Barta>,
     q <VIPUL> => q <Vipul Ved Prakash>,
     q <VKHERA> => q <Vivek Khera>,
