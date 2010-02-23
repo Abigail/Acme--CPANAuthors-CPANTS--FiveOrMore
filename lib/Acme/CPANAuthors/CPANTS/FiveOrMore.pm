@@ -9,7 +9,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2010011301';
+our $VERSION = '2010022301';
 
 use Acme::CPANAuthors::Register (
     q <AALLAN> => q <Alasdair Allan>,
@@ -73,7 +73,6 @@ use Acme::CPANAuthors::Register (
     q <AWNCORP> => q <Al Newkirk>,
     q <AWRIGLEY> => q <Ave Wrigley>,
     q <AWWAIID> => q <Brock Wilcox>,
-    q <AZAWAWI> => q <Ahmad M. Zawawi>,
     q <BARBIE> => q <Barbie>,
     q <BBAXTER> => q <Brad Baxter>,
     q <BBB> => q <Rob Brown>,
@@ -100,6 +99,7 @@ use Acme::CPANAuthors::Register (
     q <BMORROW> => q <Ben Morrow>,
     q <BOBTFISH> => q <Tomas Doran>,
     q <BOKUTIN> => q <Tomohiro Hosaka>,
+    q <BOLAV> => q <Bjorn-Olav Strand>,
     q <BOOK> => q <Philippe Bruhat (BooK)>,
     q <BORISZ> => q <Boris Zentner>,
     q <BOSU> => q <Boris Sukholitko>,
@@ -486,6 +486,7 @@ use Acme::CPANAuthors::Register (
     q <LBROCARD> => q <Leon Brocard>,
     q <LDS> => q <Lincoln D. Stein>,
     q <LEEDO> => q <Lee Aylward>,
+    q <LEIFJ> => q <Leif Johansson>,
     q <LEMBARK> => q <Steven Lembark>,
     q <LEOCHARRE> => q <Leo Charre>,
     q <LEONT> => q <Leon Timmermans>,
@@ -500,6 +501,7 @@ use Acme::CPANAuthors::Register (
     q <LUSOL> => q <Stephen O. Lidie>,
     q <LYOKATO> => q <Lyo Kato>,
     q <MADWOLF> => q <Massimiliano Pala>,
+    q <MAJENSEN> => q <Mark Allen Jensen>,
     q <MAKAMAKA> => q <Makamaka Hannyaharamitu>,
     q <MAKAROW> => q <Andrew V. Makarow>,
     q <MALUKU> => q <Marc - Sebastian Lucksch>,
@@ -531,6 +533,7 @@ use Acme::CPANAuthors::Register (
     q <MHOSKEN> => q <Martin Hosken>,
     q <MHX> => q <Marcus Holland-Moritz>,
     q <MICB> => q <Malcolm Beattie>,
+    q <MICHAEL> => q <Michael Roberts>,
     q <MIKEDLR> => q <Michael De La Rue>,
     q <MIKEM> => q <Mike McCauley>,
     q <MIKER> => q <Michael Robinton>,
@@ -750,7 +753,6 @@ use Acme::CPANAuthors::Register (
     q <SPROUT> => q <Father Chrysostomos>,
     q <SPURKIS> => q <Steve Purkis>,
     q <SREZIC> => q <Slaven Rezic>,
-    q <SRI> => q <Sebastian Riedel>,
     q <SRSHAH> => q <Sagar R. Shah>,
     q <SSCHNEID> => q <Scott Schneider>,
     q <SSCOTTO> => q <Salvatore E. ScottoDiLuzio>,
